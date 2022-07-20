@@ -1,0 +1,8 @@
+#! /bin/bash
+
+sudo su
+useradd -d /var/lib/jenkins jenkins
+su jenkins
+cd ~
+ssh-keygen
+cat /var/lib/jenkins/.ssh/id_rsa.pub

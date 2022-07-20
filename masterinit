@@ -5,4 +5,4 @@ useradd -d /var/snap/jenkins/2126 jenkins
 su jenkins
 cd ~
 ssh-keygen
-cat /var/lib/jenkins/.ssh/id_rsa.pub
+cat /var/snap/jenkins/2126/.ssh/id_rsa.pub
